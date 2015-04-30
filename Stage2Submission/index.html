@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - Intro to Programming Notes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="project">
+  <div class="session">
+    <h1 class="title">Stage 1: Work Session 1 Reflection</h1>
+    <h3 class="concepts"><span>Vocabulary</span></h3>
+    <div class="text">
+      <p>Vocabulary, Concepts, and Syntax are important, remembering everything about individual tags is not as important (you can look it up).</p>
+      <ul>
+        <li>An <b>Element</b> is a single set of an opening tag, content, and closing tag.</li>
+        <li>An <b>Attribute</b> is a property of an HTML element.</li>
+      </ul>
+    </div>
+    <h3 class="concepts"><span>Block vs Inline</span></h3>
+    <div class="text">
+      <p>There are <b>Inline Tags</b> and <b>Block Tags</b>.</p>
+      <ul>
+        <li>Block tags have an invisible box around them.</li>
+        <li>Examples of Block tags include "div", "p", and "form."</li>
+        <li>Examples of Inline Tags include "b", "em", "br", "a", "span", and "stron."</li>
+      </ul>
+    </div>
+    <h3 class="concepts"><span>High Level Summary</span></h3>
+    <div class="text">
+      <ul>
+        <li>Computers interpret things literally, therefore there can by no ambibuity when you tell it what to do (use correct syntax).</li>
+        <li>Humans use computers with browsers to <a href="www.google.com">navigate</a> HTML documents on the Internet that are stored on Servers and accessed via HTTP</li>
+      </ul>
+    </div>
+  </div>
+  <div class="session">
+    <h1 class="title">Stage 1: Work Session 2 Reflection</h1>
+    <h3 class="concepts"><span>Structure</span></h3>
+    <div class="text">
+      <p>A website is like a <em><b>house</b></em></p>
+      <ul>
+        <li>HTML Docs are the structure, foundation, walls</li>
+        <li>CSS is the style (carpet and wall color)</li>
+        <li>Javascript are the active components (garage door opener or tv remote)</li>
+      </ul>
+      <p>Everything in an HTML document is a box. Boxes give structure to the content. Browsers read the structure to determine how to present the content.</p>
+    </div>
+    <h3 class="concepts"><span>Tools</span></h3>
+    <div class="text">
+      <ul>
+        <li>You can view the code for a web page using the developer tools in Chrome.</li>
+        <li>CSS tells the browser what the stylistic elements of the content are, using classes.</li>
+        <li>Syntax continues to be of utmost importance, but tools can help validate proper use and completeness.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="session">
+    <h1 class="title">Stage 1: Work Session 3 Reflection</h1>
+    <h3 class="concepts"><span>Cascading</span></h3>
+    <div class="text">
+      <p>Cascading allows for easier formatting by applying rules to elements, as well as their child elements, no matter where they are in the html document (<a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Inheritance">inheritance</a>). If
+        an element has has more than one rule defined, the most specific rule for that element takes precendennce. Writing less CSS allows web pages to load more quickly and efficiently.</p>
+      <p>There are multiple ways to include CSS in a web page:</p>
+      <ul>
+        <li>Write CSS in the head of your document</li>
+        <li>Link your HTML document to a separate CSS file</li>
+        <li>Write your style <i><b>inline</b></i> with your HTML</li>
+      </ul>
+      <p>The benefits of CSS are many. In addition to reducing "bloat", the DRY (<a href="http://programmer.97things.oreilly.com/wiki/index.php/Don't_Repeat_Yourself">Dont Repeat Yourself</a>) principle improves quality by making it easier for programmers
+        to understand the code, make changes in as few places as possible, and allows for logic to be abstracted (business rules for example). The first step in eliminating uncessary repetition appears to be having the ability to recognize patterns.
+    </div>
+    <h3 class="concepts"><span>Box Formatting</span></h3>
+    <div class="text">
+      <p>There are 4 parts to every box in HTML: Content, Padding, Border, Margin (from inside out). The size of each part can be set using a percentage or a pixel number. Different browsers can display the same information differently. There are techniques
+        to avoid this issue.</p>
+    </div>
+    <h3 class="concepts"><span>Refining Your HTML and CSS</span></h3>
+    <div class="text">
+      <p>Developer Tools is an extreemly useful tool for refining your code. You can try many variations to instantly see the result, without actually making any changes to your code. You can also use websites such as the <a href="http://validator.w3.org/#validate_by_input">W3C Markup Validation Service</a>        to validate your code.</p>
+      <p>There is a step by step process you can use when designing an html document.</p>
+      <ul>
+        <li>Look for natural boxes</li>
+        <li>Look for repeated styles and semantics</li>
+        <li>Write you your html</li>
+        <li>Apply styles (from biggest to smallest)</li>
+        <li>Fix things</li>
+      </ul>
+    </div>
+  </div>
+  <div class="session">
+    <h1 class="title">Stage 2: Work Session 1 Reflection</h1>
+    <h3 class="concepts"><span>Terminology</span></h3>
+    <div class="text">
+      <ul>
+        <li><b>Program</b> is what tells the computer what to do.</li>
+        <li><b>A Computer</b> is a universal machine that runs programs.</li>
+        <li>Python is an <b>programming language</b>, and an interpreter.</li>
+        <li>An <b>interpreter</b> interprets the programming language into a language that the computer can understand.</li>
+        <li>Programming languages are needed because natural languages are to <b>ambiguous</b> (unclear) and <b>verbose</b> (wordy).</li>
+      </ul>
+    </div>
+    <h3 class="concepts"><span>Grammar</span></h3>
+    <div class="text">
+      <p>Notating a language's grammar with "<em>non-terminal -> replacement</em>" is known as "<a href="http://en.wikipedia.org/wiki/Backus%E2%80%93Naur_Form" <b>Backus Naur Form</b></a>." Backus Naur Form allows you to derive acceptable expressions for
+        the language. You break down the expression until all your replacements are "non-terminals."</p>
+    </div>
+    <h3 class="concepts"><span>Python Expressions</span></h3>
+    <div class="text">
+      <p>In Python, the Grammar for arithmetic in Backus Naur Form looks like:
+        <ul>
+          <li><b>Expression</b> -> <b>Expression Operator Expression</b></li>
+          <li><b>Expression</b> -> Number</li>
+          <li><b>Operator</b> -> +</li>
+          <li><b>Operator</b> -> *</li>
+          <li><b>Number</b> -> 0, 1, ...</li>
+          <li><b>Expression</b> -> (<b>Expression</b>)</li>
+        </ul>
+        (Bold items are non-terminals)
+      </p>
+    </div>
+  </div>
+  <div class="session">
+    <h1 class="title">Stage 2: Work Session 2 Reflection</h1>
+    <h3 class="concepts"><span>Variables</span></h3>
+    <div class="text">
+      <p>A Variable is an assignment statement, where a name is assigned an expression.
+        <ul>
+          <li>Example: Car = White Toyota</li>
+          <li>Print "Car" (Result: White Toyota)</li>
+        </ul>
+        The = sign for a Variable does not mean the same thing as in arithmetic, it is simply an assignment of a value. This value can change, and the Python interpreter will use the most recent value for each Variable. Variables are useful because they can improve
+        the readability and simplify your code by replacing complex numbers or values with simply-named Assignment Statements.
+      </p>
+    </div>
+    <h3 class="concepts"><span>Strings</span></h3>
+    <div class="text">
+      <p>A String is simply a set of characters, surrounded by quotes. <b>Example: "I am a string!"</b> You can use <em><b>single quotes or double quotes</b></em>, but whichever you choose, you have to be consistent on the front and end of a string. You
+        can concatenate Strings, but you cannot add them. If you try to add two numbers with quotes around them, Python will just concatenate them, rather than add them together.
+      </p>
+    </div>
+    <h3 class="concepts"><span>Indexing</span></h3>
+    <div class="text">
+      <p>Indexing allows you to extract portions of a String you are interested in. You can define the first and last portion of the string you want to extract (sub-sequence).
+        <ul>
+          <li>Example: Name = "Matt"</li>
+          <li>Print name[0:2]</li>
+          <li>Result: <b>Ma</b></li>
+        </ul>
+      </p>
+    </div>
+    <h3 class="concepts"><span>Find</span></h3>
+    <div class="text">
+      <p>Find is a <b>Method</b> (built-in procedure in Python). Find allows you to find the first position of the first occurrence of a <b>target string</b>, within a <b>search string</b>. If the function doesn't find the target string, Python will return
+        a value of "-1". Otherwise, it will return the position number of just before the target string. A second parameter can be added to the find function to find the second occurrence of the target string.
+      </p>
+    </div>
+  </div>
+  <div class="session">
+    <h1 class="title">Stage 2: Work Session 3 Reflection</h1>
+    <h3 class="concepts"><span>Functions</span></h3>
+    <div class="text">
+      <p>Functions, or "procedures" take inputs, process them, and produce outputs. They consist of <b>procedure</b>(<b>input</b>,<b>input</b>,<b>…</b>).
+      </p>
+      For example:
+      <br> def sum(n1,n2):
+      <br> return n1 + n2
+      <br> print sum(1 ,2)
+      </p>
+      <p>
+        This function would add two numbers together (and return a "3" in this example). In this example, "sum" is the <b>function name</b>, and "(n1,n2)" are the <b>parameters</b>. When calling (using) the function, you replace the parameters with <b>values</b>.
+        These values could be numbers, strings, or even variables.
+      </p>
+    </div>
+    <h3 class="concepts"><span>Making and Using Functions</span></h3>
+    <div class="text">
+      <p>
+        Making a function is also called "defining." In order to use (call) a function, it must first be defined. Once defined, it can be used over and over in the program. This makes functions extremely useful tools, and simplifies code writing and debugging.
+        If a function doesn't have a return statement, Python won't know what to do when it is called. By default, if Python can't understand what you want the function to do, it will return "None" when it is called.
+      </p>
+    </div>
+  </div>
+  <div class="session">
+    <h1 class="title">Stage 2: Work Session 4 Reflection</h1>
+    <h3 class="concepts"><span>Boolean Logic</span></h3>
+    <div class="text">
+      <p>
+        Boolean logic compares variables and evaluates them as True or False. This logic is used in the construction of If, Or, and Else expressions in Python.
+      </p>
+    </div>
+    <h3 class="concepts"><span>If and Else Expressions</span></h3>
+    <div class="text">
+      <p>
+        If expressions consist of a test expression and block. They are written inside procedures. For example: def bigger(a,b):
+        <br> if a > b:
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;return a
+        <br> return b
+        <br>
+      </p>
+      <p>
+        The above reads in english as follows: "If a is greater than b, return a. If not (or else), return b."
+        <br>
+        <br> Else can be added and used used like this:
+        <br> def bigger(a,b):
+        <br> if a > b:
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;return a
+        <br> else: return 'the first number is smaller than the second number'
+      </p>
+      <p>
+        Else Expressions can also be used to simplify complex calculations. For example:
+        <br> def biggest(a,b,c):
+        <br> if a > b:
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;if a > c:
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return a
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;else:
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return c
+        <br> else:
+        <br> &nbsp;&nbsp;&nbsp;&nbsp; if b > c
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return b
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return c
+        <br>
+      </p>
+    </div>
+    <h3 class="concepts"><span>While Expressions</span></h3>
+    <div class="text">
+      <p>
+        While expresssions utilize "loops" to perform the same function multiple times, until certain conclusions are reached (if ever). For example:
+        <br> def print_numbers(a):
+        <br> &nbsp;&nbsp;&nbsp;&nbsp; n = 1
+        <br> &nbsp;&nbsp;&nbsp;&nbsp; while
+        <=a :<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; print n
+          <br> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; n = n + 1
+          <br> print_numbers(3)
+          <br>
+          <br> This program would return:
+          <br> 1
+          <br> 2
+          <br> 3
+          <br>
+          <br> "Breaks" can be used to interrupt loops and move on to the next step in the code. They are constructed like:
+          <br> while (TestExpression):
+          <br> &nbsp;&nbsp;&nbsp;&nbsp; (code)
+          <br> &nbsp;&nbsp;&nbsp;&nbsp; if (BreakTest):
+          <br> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; break
+          <br> &nbsp;&nbsp;&nbsp;&nbsp; (MoreCode)
+          <br> (AfterWhile)
+          <br>
+
+      </p>
+    </div>
+  </div>
+  <div class="session">
+    <h1 class="title">Stage 2: Work Session 5 Reflection</h1>
+    <h3 class="concepts"><span>Structured Data</span></h3>
+    <div class="text">
+      Lists are structured data because they contain defined positions. Strings are also structured, since their positions can also be queried.
+    </div>
+    <h3 class="concepts"><span>Mutability</span></h3>
+    <div class="text">
+      Lists are mutable, strings are not. Mutability means having the ability to change elements within the list, without creating a whole new list.
+    </div>
+    <h3 class="concepts"><span>Append vs +</span></h3>
+    <div class="text">
+      Appending a list to another list adds only one element to the initial list. This new element refers to the list that was appended. Therefore, changes to the appended list will be reflected in the list it was appended to. + works a lot like concatenate.
+      If you concatenate two lists, each element in the appended list becomes a separate element in the list it was concatenated with.
+    </div>
+    <h3 class="concepts"><span>For Loops</span></h3>
+    <div class="text">
+      <a href="https://wiki.python.org/moin/ForLoop">For Loops</a> allow you to execute a piece of code multiple times (iterate), and are typically used when the number of iterations is known. Othwerwise, a <a href="https://wiki.python.org/moin/WhileLoop">While Loop</a>      could be used. For Loops iterate over a list or a string, in the order that they appear.
+    </div>
+    <h3 class="concepts"><span>How to Solve Problems</span></h3>
+    <div class="text">
+      0. Don't Panic
+      <br> 1. What are the <b>Inputs</b>?
+      <br> 2. What are the <b>Outputs</b>?
+      <br> 3. Work through some examples by hand.
+      <br> 4. Simple mechanical solution.
+      <br> 5. Develop incrementally and <u>test</u> as you go.
+    </div>
+  </div>
+</div>
+<div class="w3c">
+  <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+  <a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a>
+</div>
+
+</body>
+
+</html>
